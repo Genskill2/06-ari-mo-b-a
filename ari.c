@@ -8,7 +8,7 @@
 string ari(string x)
 {
    int c=0,w=0,s=0;
-   
+   int score;
    for(int i=0;i<strlen(x);i++)
    {
       if(isalnum(x[i]))
@@ -26,7 +26,7 @@ string ari(string x)
        }
    }
 
-    int score=(ceil)((4.71*(c/w))+(0.5*(w/s))-21.43);
+    score=(ceil)((4.71 * c/w) + (0.5 * w/s) - 21.43)
     
     
     switch(score)
