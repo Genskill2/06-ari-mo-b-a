@@ -15,11 +15,11 @@ string ari(string x)
         c++;
       }  
    
-      if(isspace(x[i]))
+      else if(isspace(x[i]))
       {
         w++;
       }
-      if(x[i]=='.'||x[i]=='!'||x[i]=='?')
+     else if(x[i]=='.'||x[i]=='!'||x[i]=='?')
       {
         s++;
        }
