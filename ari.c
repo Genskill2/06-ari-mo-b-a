@@ -2,7 +2,7 @@
 #include<string.h>
 #include<cs50.h>
 #include<ctype.h>
-
+#include<math.h>
 
 string ari(string x)
 {
@@ -25,7 +25,7 @@ string ari(string x)
        }
    }
 
-    int score=((4.71*(c/w))+(0.5*(w/s))-21.43);
+    int score=(ceil)((4.71*(c/w))+(0.5*(w/s))-21.43);
     
     
     switch(score)
