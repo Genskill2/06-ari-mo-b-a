@@ -26,7 +26,7 @@ string ari(string x)
        }
    }
 
-    score=(ceil)((4.71 * c/w) + (0.5 * w/s) - 21.43)
+    score=(ceil)((4.71 * c/w) + (0.5 * w/s) - 21.43);
     
     
     switch(score)
