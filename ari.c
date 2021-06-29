@@ -56,7 +56,7 @@ string ari(string x)
              break;
     case 13: return "College student";
              break;
-    case 14: return "Professor"
+    case 14: return "Professor";
     		break;
     		
    };
