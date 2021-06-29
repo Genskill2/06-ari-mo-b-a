@@ -7,7 +7,7 @@
 string ari(string x)
 {
    int c=0,w=0,s=0;
-   int score=0;
+   
    for(int i=0;i<strlen(x);i++)
    {
       if(isalnum(x[i]))
@@ -15,7 +15,7 @@ string ari(string x)
         c++;
       }  
    
-      if(isspace(x[i])
+      if(isspace(x[i]))
       {
         w++;
       }
@@ -25,7 +25,7 @@ string ari(string x)
        }
    }
 
-    score=((4.71*(c/w))+(0.5*(w/s))-21.43)
+    int score=((4.71*(c/w))+(0.5*(w/s))-21.43);
     
     
     switch(score)
